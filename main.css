@@ -1,0 +1,92 @@
+body {
+	background-color: #D7D7D7;
+	background-image: url("images/background.png");
+	background-position: left top; left: 0px; top: 0px;
+	}
+
+div {
+	width: 100%;
+}
+	
+body, p {
+    line-height: 1.2;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 16pt;
+}
+	
+div h1{
+	text-align: center;
+}
+	
+.maindiv{
+	margin: 0;
+	margin-top: 0;
+}	
+
+.logo{
+	padding-left: 15px;
+	padding-top: 8px;
+	}
+
+.header {
+	display: block;
+	background-color: white; 
+	clear: right;
+	width: 60%;
+	margin: auto;
+	margin-top: 40px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.nav-bar {
+		width: 60%;
+		height: 35px;
+		margin: 0 auto;
+		padding: 0;
+		background-color: black;
+		
+}
+nav.nav-bar ul {
+	display: block;
+	list-style-type: none;
+	width: 60%;
+	margin: auto;
+	padding: 0;
+}
+
+nav.nav-bar ul li {
+	margin: 0;
+	padding: 0;
+}
+
+nav.nav-bar ul li a {
+	display: block;
+    float: left;
+    max-height: 30px;
+    width: 25%;
+    margin: 0 auto;
+    padding: 8px 0;
+    font-family: tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+nav.nav-bar ul li a:hover {
+	background-color: white;
+	color: black;
+	border-bottom-color: white;
+}
+
+.content {
+	background-color: white;
+	width: 60%;
+	margin: 0 auto;	
+	
+}
+
+div p {
+	text-align: center;
+}
